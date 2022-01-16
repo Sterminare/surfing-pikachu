@@ -83,6 +83,8 @@ while True:
                 player_isdown = True
             if event.key == pygame.K_UP:
                 player_isjumping = True
+            if event.key == pygame.K_r:
+                small_waves.clear()
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_DOWN:
                 if player_isdown:
